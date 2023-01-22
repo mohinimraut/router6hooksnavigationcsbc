@@ -1,0 +1,25 @@
+=>useParama =>Param se multiple value aate hai utan ham page nahi
+ ban sakate so params se dynamic value pass kar sakate hai
+ ---------------
+ active color inline css condition
+ <NavLink style={({isActive})=>{
+    return {backgroundColor:isActive?'green':'red'}
+ }}>
+ 
+ </NavLink>
+------------------
+searchParams ye React Router k hook hai.
+--------------
+import {useSearchParams} from  "react-router-dom"
+useSearchParams is a hook provides by React Router
+
+localhost:3000/filter?age=10
+ searchParams se queryParams se data nikalana
+ -----------------
+ useNavigate ye react-router-dom ka hook hai
+ Q) Interview question buttonclick pe konasa hoo use karene 
+ Ans)useNavigate
+--------------------
+# bhi ek tarah route ka type hota hai.Ek prakar isako id bhi bolate hai.
+---------------
+useLocation=>1 page se dusare page pe jane ke time p e pura data send kar sakate hai
